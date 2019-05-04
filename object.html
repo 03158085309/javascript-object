@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var b = 0;
+        var itemsArray = [
+            { name: "juice", price: 50, quantity: "3" },
+            { name: "cookie", price: 30, quantity: "9" },
+            { name: "shirt", price: 880, quantity: "1" },
+            { name: "pen", price: 100, quantity: "2" }];
+        for (i = 0; i < itemsArray.length; i++) {
+            b += itemsArray[i].price;
+            document.write(itemsArray[i].price * itemsArray[i].quantity + "<br>")
+        }
+        document.write(b)
+         var obj10 = {
+             name: "muhammed ukasha",
+             email: "ukasham471@gmail.com",
+             password: "12345678",
+             age: "18",
+             gender: "male",
+             country: "pakistan",
+             city: "karachi",   
+         }
+        
+if ( obj10.hasOwnProperty('name') ) {
+    alert('if the property is exis')
+    //Do this
+}
+else[
+  alert('if the property does no exist')
+]
+if ( obj10.hasOwnProperty('age') ) {
+    alert('if the property is exis')
+}
+else{
+  alert('if the property does no exist')
+
+}
+    </script>
+</body>
+
+</html>
